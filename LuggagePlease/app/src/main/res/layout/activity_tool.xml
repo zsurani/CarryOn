@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/findButton"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/findicon" />
+
+    <ImageButton
+        android:id="@+id/buzzButton"
+        android:layout_below="@+id/findButton"
+        android:layout_width = "180dp"
+        android:layout_height= "180dp"
+        android:layout_gravity="center_horizontal|bottom"
+        app:srcCompat="@drawable/buzzicon"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageButton
+        android:id="@+id/infoButton"
+        android:layout_below="@+id/buzzButton"
+        android:layout_width = "180dp"
+        android:layout_height= "180dp"
+        android:layout_gravity="center_horizontal|bottom"
+        app:srcCompat="@drawable/infoicon"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="15dp" />
+
+
+
+
+</RelativeLayout>
